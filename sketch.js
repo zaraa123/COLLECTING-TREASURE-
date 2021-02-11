@@ -42,7 +42,7 @@ swordGroup=new Group();
 
 function draw() {
 
-  background(1);
+  background(0);
   
   edges= createEdgeSprites();
   boy.collide(edges);
@@ -62,7 +62,7 @@ function draw() {
     
     if (cashG.isTouching(boy)) {
       cashG.destroyEach();
-      treasureCollection=treasureCollection+50
+      treasureCollection=treasureCollection+100
     }
       else if (diamondsG.isTouching(boy)) {
       diamondsG.destroyEach();
@@ -70,7 +70,7 @@ function draw() {
    }
       else if(jwelleryG.isTouching(boy)) {
       jwelleryG.destroyEach();
-      treasureCollection=treasureCollection+100
+      treasureCollection=treasureCollection+120
   }
      else if(swordGroup.isTouching(boy)) {
        swordGroup.destroyEach();

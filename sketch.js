@@ -42,7 +42,7 @@ swordGroup=new Group();
 
 function draw() {
 
-  background(0);
+  background(1);
   
   edges= createEdgeSprites();
   boy.collide(edges);

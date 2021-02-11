@@ -62,15 +62,15 @@ function draw() {
     
     if (cashG.isTouching(boy)) {
       cashG.destroyEach();
-      treasureCollection=treasureCollection+100
+      treasureCollection=treasureCollection+ 100
     }
       else if (diamondsG.isTouching(boy)) {
       diamondsG.destroyEach();
-      treasureCollection=treasureCollection+150
+      treasureCollection=treasureCollection+ 150
    }
       else if(jwelleryG.isTouching(boy)) {
       jwelleryG.destroyEach();
-      treasureCollection=treasureCollection+120
+      treasureCollection=treasureCollection+ 120
   }
      else if(swordGroup.isTouching(boy)) {
        swordGroup.destroyEach();
